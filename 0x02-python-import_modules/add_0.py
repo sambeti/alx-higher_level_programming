@@ -3,11 +3,11 @@
 def add(a, b):
     """May addition function to be imported to others
 
-        args:
+        Args:
             a: the first integer
             b: the second integer
 
-        returns:
+        Returns:
             the return value. a + b
             """
-        return (a + b)
+    return (a + b)
