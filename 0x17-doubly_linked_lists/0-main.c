@@ -24,11 +24,13 @@ int main(void)
 		return (EXIT_FAILURE);
 	}
 	new->n = 9;
+	head->prev = new;
 	head->next = head;
 	new->prev = NULL;
 	head = new;
 	n = print_dlistint(head);
 	printf("-> %lu elements\n", n);
 	free(new);
+
 	return (EXIT_SUCCESS);
 }
